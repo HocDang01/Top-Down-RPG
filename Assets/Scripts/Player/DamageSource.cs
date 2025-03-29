@@ -6,7 +6,18 @@ public class DamageSource : MonoBehaviour
     private void Start()
     {
         MonoBehaviour currentActiveWeapon = ActiveWeapon.Instance.CurrentActiveWeapon;
-        damageAmount = (currentActiveWeapon as IWeapon).GetWeaponInfo().weaponDamage;
+        switch ((currentActiveWeapon as IWeapon).GetWeaponInfo().weaponName)
+        {
+            case "Sword":
+                damageAmount = PlayerPrefs.GetInt(PrefConsts.SWORD_DAME, 2);
+                break;
+            case "Bow":
+                damageAmount = PlayerPrefs.GetInt(PrefConsts.BOW_DAME, 1);
+                break;
+            case "Staff":
+                damageAmount = PlayerPrefs.GetInt(PrefConsts.STAFF_DAME, 3);
+                break;
+        }
     }
     private void OnTriggerEnter2D(Collider2D col)
     {

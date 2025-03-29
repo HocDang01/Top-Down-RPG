@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9132523354461312998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6105445220339594604}
+  - component: {fileID: 7400547946047353650}
+  m_Layer: 0
+  m_Name: PlayerStatus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6105445220339594604
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9132523354461312998}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.7938953, y: -0.2103912, z: -0.026781125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7400547946047353650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9132523354461312998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63404ba6208afab488b40e98f97f96dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actived: {fileID: -4983721108374671077, guid: 06318f2005b9bca4c9807833f14edd8c, type: 3}
+  inactived: {fileID: -4910088520043721169, guid: 15fd2a1c773063f44aba0a5861771c71, type: 3}
+  settingDialog: {fileID: 0}
+  maxHealth: 3
+  healthContent: {fileID: 0}
+  dameSword: 2
+  swordContent: {fileID: 0}
+  dameBow: 1
+  bowContent: {fileID: 0}
+  dameStaff: 3
+  staffContent: {fileID: 0}

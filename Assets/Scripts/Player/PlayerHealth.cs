@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class PlayerHealth : Singleton<PlayerHealth>
 {
     public bool isDead {  get; private set; }
+    public int MaxHealth { get => maxHealth; set => maxHealth = value; }
+
     [SerializeField] private int maxHealth = 3;
     [SerializeField] private float knockBackThrustAmount = 10f;
     [SerializeField] private float damageRcoveryTime = 1f;
@@ -30,7 +32,8 @@ public class PlayerHealth : Singleton<PlayerHealth>
     private void Start()
     {
         isDead = false;
-        currentHealth = maxHealth;
+        MaxHealth = PlayerPrefs.GetInt(PrefConsts.MAX_HEALTH, 3);
+        currentHealth = MaxHealth;
         UpdateHealthSlider();
     }
     private void OnCollisionStay2D(Collision2D other)
@@ -41,11 +44,11 @@ public class PlayerHealth : Singleton<PlayerHealth>
             TakeDamage(1, other.transform);
         }
     }
-    public void HealPlayer()
+    public void HealPlayer(int heal)
     {
-        if (currentHealth < maxHealth)
+        if (currentHealth < MaxHealth)
         {
-            currentHealth++;
+            currentHealth += heal;
             UpdateHealthSlider();
 
         }
@@ -97,7 +100,7 @@ public class PlayerHealth : Singleton<PlayerHealth>
         }
         if (healthSlider != null)
         {
-            healthSlider.value = (float)currentHealth / (float)maxHealth;
+            healthSlider.value = (float)currentHealth / (float)MaxHealth;
         }
     }
 }

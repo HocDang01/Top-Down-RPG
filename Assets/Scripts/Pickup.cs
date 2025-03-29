@@ -91,7 +91,7 @@ public class Pickup : MonoBehaviour
                 break;
             case PickUpType.HealthGlobe:
                 AudioController.Instance.PlaySound(AudioController.Instance.eatHealth);
-                PlayerHealth.Instance.HealPlayer();
+                PlayerHealth.Instance.HealPlayer(1);
                 break;
         }
     }

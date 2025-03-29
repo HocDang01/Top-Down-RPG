@@ -20,6 +20,7 @@ public class EnemyHealth : MonoBehaviour
 
     private void Start()
     {
+        startingHealth += GetComponent<EnemyAI>().level;
         currentHealth = startingHealth;
     }
 

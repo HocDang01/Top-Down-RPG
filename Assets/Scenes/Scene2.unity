@@ -460,6 +460,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2074366249618198943, guid: daf05df549c97b44f939fe33e8bb2f35, type: 3}
   m_PrefabInstance: {fileID: 1638894995}
   m_PrefabAsset: {fileID: 0}
+--- !u!224 &382078474 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2343792970015257623, guid: 58b01f4424aa9c14b94b99af0c0ee41e, type: 3}
+  m_PrefabInstance: {fileID: 1700693910}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &382078475 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8499051824663648344, guid: 58b01f4424aa9c14b94b99af0c0ee41e, type: 3}
+  m_PrefabInstance: {fileID: 1700693910}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &382078476 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1729694787484656606, guid: 58b01f4424aa9c14b94b99af0c0ee41e, type: 3}
+  m_PrefabInstance: {fileID: 1700693910}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &382078477 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3115779750276014589, guid: 58b01f4424aa9c14b94b99af0c0ee41e, type: 3}
+  m_PrefabInstance: {fileID: 1700693910}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &382078478 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2900850017725300109, guid: 58b01f4424aa9c14b94b99af0c0ee41e, type: 3}
+  m_PrefabInstance: {fileID: 1700693910}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &382078479 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1104441088828669657, guid: 58b01f4424aa9c14b94b99af0c0ee41e, type: 3}
+  m_PrefabInstance: {fileID: 1700693910}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &382078480 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 384909337839384742, guid: 58b01f4424aa9c14b94b99af0c0ee41e, type: 3}
+  m_PrefabInstance: {fileID: 1700693910}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14f5c236149583d4ea691022740c78f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &391407620
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -468,6 +521,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 810496872}
     m_Modifications:
+    - target: {fileID: 1655192586442594386, guid: b1ceb0ddff1aeee48b4320321f9b0853, type: 3}
+      propertyPath: level
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1655192586442594386, guid: b1ceb0ddff1aeee48b4320321f9b0853, type: 3}
       propertyPath: enemyType
       value: 
@@ -7356,6 +7413,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 810496872}
     m_Modifications:
+    - target: {fileID: 1655192586442594386, guid: b1ceb0ddff1aeee48b4320321f9b0853, type: 3}
+      propertyPath: level
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1655192586442594386, guid: b1ceb0ddff1aeee48b4320321f9b0853, type: 3}
       propertyPath: enemyType
       value: 
@@ -21577,6 +21638,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 265763649503843054, guid: 58b01f4424aa9c14b94b99af0c0ee41e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7127877381279412782}
+    - target: {fileID: 265763649503843054, guid: 58b01f4424aa9c14b94b99af0c0ee41e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpgradeSword
+      objectReference: {fileID: 0}
+    - target: {fileID: 578257111481514010, guid: 58b01f4424aa9c14b94b99af0c0ee41e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7127877381279412782}
+    - target: {fileID: 578257111481514010, guid: 58b01f4424aa9c14b94b99af0c0ee41e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpgradeHealth
+      objectReference: {fileID: 0}
     - target: {fileID: 1423675429509082173, guid: 58b01f4424aa9c14b94b99af0c0ee41e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -21624,6 +21701,14 @@ PrefabInstance:
     - target: {fileID: 1901087015863044296, guid: 58b01f4424aa9c14b94b99af0c0ee41e, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2080358293258202885, guid: 58b01f4424aa9c14b94b99af0c0ee41e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7127877381279412782}
+    - target: {fileID: 2080358293258202885, guid: 58b01f4424aa9c14b94b99af0c0ee41e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpgradeStaff
       objectReference: {fileID: 0}
     - target: {fileID: 2180734786563531614, guid: 58b01f4424aa9c14b94b99af0c0ee41e, type: 3}
       propertyPath: m_Camera
@@ -21780,6 +21865,14 @@ PrefabInstance:
     - target: {fileID: 6145940560926900454, guid: 58b01f4424aa9c14b94b99af0c0ee41e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Restart
+      objectReference: {fileID: 0}
+    - target: {fileID: 6793750773294974112, guid: 58b01f4424aa9c14b94b99af0c0ee41e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7127877381279412782}
+    - target: {fileID: 6793750773294974112, guid: 58b01f4424aa9c14b94b99af0c0ee41e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpgradeBow
       objectReference: {fileID: 0}
     - target: {fileID: 6819514475569059382, guid: 58b01f4424aa9c14b94b99af0c0ee41e, type: 3}
       propertyPath: m_AnchorMax.y
@@ -27215,6 +27308,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grape
       objectReference: {fileID: 0}
+    - target: {fileID: 3451312500365908904, guid: 9b2b498c74cb88441bfbeee78d6f0f13, type: 3}
+      propertyPath: level
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7937097949802346396, guid: 9b2b498c74cb88441bfbeee78d6f0f13, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.69
@@ -27414,6 +27511,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 810496872}
     m_Modifications:
+    - target: {fileID: 1655192586442594386, guid: b1ceb0ddff1aeee48b4320321f9b0853, type: 3}
+      propertyPath: level
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1655192586442594386, guid: b1ceb0ddff1aeee48b4320321f9b0853, type: 3}
       propertyPath: enemyType
       value: 
@@ -32417,11 +32518,50 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7831160577133815496, guid: d4053290d707bdc4b98e196072f81f35, type: 3}
+      propertyPath: ShopBtn
+      value: 
+      objectReference: {fileID: 382078479}
+    - target: {fileID: 7831160577133815496, guid: d4053290d707bdc4b98e196072f81f35, type: 3}
+      propertyPath: bowContent
+      value: 
+      objectReference: {fileID: 382078475}
+    - target: {fileID: 7831160577133815496, guid: d4053290d707bdc4b98e196072f81f35, type: 3}
+      propertyPath: exitShopBtn
+      value: 
+      objectReference: {fileID: 382078478}
+    - target: {fileID: 7831160577133815496, guid: d4053290d707bdc4b98e196072f81f35, type: 3}
+      propertyPath: staffContent
+      value: 
+      objectReference: {fileID: 382078474}
+    - target: {fileID: 7831160577133815496, guid: d4053290d707bdc4b98e196072f81f35, type: 3}
+      propertyPath: swordContent
+      value: 
+      objectReference: {fileID: 382078476}
+    - target: {fileID: 7831160577133815496, guid: d4053290d707bdc4b98e196072f81f35, type: 3}
+      propertyPath: healthContent
+      value: 
+      objectReference: {fileID: 382078477}
+    - target: {fileID: 7831160577133815496, guid: d4053290d707bdc4b98e196072f81f35, type: 3}
+      propertyPath: settingDialog
+      value: 
+      objectReference: {fileID: 382078480}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4053290d707bdc4b98e196072f81f35, type: 3}
+--- !u!114 &7127877381279412782 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7831160577133815496, guid: d4053290d707bdc4b98e196072f81f35, type: 3}
+  m_PrefabInstance: {fileID: 7127877381279412781}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63404ba6208afab488b40e98f97f96dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &7282833277643722045
 Transform:
   m_ObjectHideFlags: 0
